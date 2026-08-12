@@ -1,0 +1,16 @@
+{
+  "name": "soneium-swap-bot",
+  "version": "1.0.0",
+  "description": "Bot swap otomatis USDSC <-> USDC.e <-> ETH di Soneium via Uniswap V4 (Universal Router + Trading API)",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ethers": "^6.13.4",
+    "inquirer": "^9.3.7",
+    "node-cron": "^4.6.0"
+  }
+}
